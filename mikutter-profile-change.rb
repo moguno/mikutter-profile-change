@@ -33,7 +33,7 @@ Plugin.create :profile_change do
             if result.code == "200"
               activity :system, "@#{user[:idname]}の名前を#{w_user.text}に変更しました。"
             else
-              activity :system, "名前をの変更になんか失敗しました。"
+              activity :system, "名前の変更になんか失敗しました。"
             end
           }
         }
